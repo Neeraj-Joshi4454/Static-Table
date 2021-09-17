@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table h1{
+
+    text-align: center;
+    margin-bottom: 1rem;
+    color: lightcoral;
+    
+}
+table{
+
+    border: 1px solid gray;
+    border-radius: .3rem;
+    width: 40rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+th{
+
+    color:initial;
+    font-weight: bold;
+}
+
+th,td{
+
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+th, #row2, #row4{
+
+    background-color: lightblue;
+}
+
+#row1, #row3{
+
+    background-color: lightsteelblue;
+}
